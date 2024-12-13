@@ -19,7 +19,7 @@ export default function Summary({ userAnswers }) {
   return (
     <div id="summary">
       <img src={quizCompleteImage} alt="Trophy icon" />
-      <h2>Quiz Completed!</h2>
+      <h2 className="quiz-completed-header">Quiz Completed!</h2>
       <div id="summary-stats">
         <p>
           <span className="number">{skippedAnswersShare}%</span>

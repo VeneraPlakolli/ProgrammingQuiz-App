@@ -334,3 +334,20 @@ header h1 {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 749px) {
+  #summary-stats {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  #summary-stats p {
+    align-items: center;
+  }
+  #summary-stats p span {
+    text-align: center;
+  }
+  #summary h2.quiz-completed-header {
+    font-size: 2.5rem;
+  }
+}
